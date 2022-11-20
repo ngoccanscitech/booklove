@@ -1,0 +1,17 @@
+info admin nhathuockhanhkhoi
+admin@admin
+admin@2022
+
+
+"nhathuockhanhkhoi.exproweb.com
+103.90.234.154             ....... Truy cap dia chi nay va /http://103.90.234.154/phpMyAdmin
+
+Login:	nhathuockhanhkhoi@exproweb.com
+Password:	FuJ9cFnm
+Path:	/home/admin/domains/exproweb.com/public_html/nhathuockhanhkhoi
+
+
+Database:	admin_nhathuockhanhkhoi
+Host:	localhost
+Username:	admin_nhathuockhanhkhoi
+Password:	uYU5WcD2"
