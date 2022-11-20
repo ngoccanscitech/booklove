@@ -19,9 +19,9 @@
         {!! $product->showPriceDetail() !!}
     </div>
 
-    <div class="product-single__description rte mb-3">
-        {!! htmlspecialchars_decode($product->description) !!}
-    </div>
+{{--    <div class="product-single__description rte mb-3">--}}
+{{--        {!! htmlspecialchars_decode($product->description) !!}--}}
+{{--    </div>--}}
     
     <form method="post" action="{{ route('cart.ajax.add') }}" id="product_form_addCart" accept-charset="UTF-8" class="product-form product-form-product-template hidedropdown" enctype="multipart/form-data">
         <input type="hidden" name="product" value="{{ $product->id }}">

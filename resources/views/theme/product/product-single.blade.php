@@ -68,6 +68,10 @@
                             {!! htmlspecialchars_decode($product->content) !!}
                         </div>
                         <div class="tab-pane fade" id="specs" role="tabpanel">
+                            {!! htmlspecialchars_decode($product->description) !!}
+
+
+                            <h5>Thành phần của thuốc</h5>
                             @if(is_array($spec_short))
                                   <div class="option_focus">
                                      <ul class="parametdesc mb-0">

@@ -20,10 +20,9 @@
 
     </div>
 
-    <div class="product-single__description rte mb-3">
-        <?php echo htmlspecialchars_decode($product->description); ?>
 
-    </div>
+
+
     
     <form method="post" action="<?php echo e(route('cart.ajax.add')); ?>" id="product_form_addCart" accept-charset="UTF-8" class="product-form product-form-product-template hidedropdown" enctype="multipart/form-data">
         <input type="hidden" name="product" value="<?php echo e($product->id); ?>">
