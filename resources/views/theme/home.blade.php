@@ -172,8 +172,8 @@
    <section id="hot_news" class="py-5">
       <div class="container">
          <div class="section-title mb-lg-5 mb-3 w-100 text-center d-block">
-            <h3 class="m-auto mb-3">THÔNG TIN SỨC KHOẺ</h3>
-            <p>We help the world’s leading organizations follow their shipping</p>
+            <h3 class="m-auto mb-3">Tài liệu từ vựng</h3>
+            <p>Việc học trở nên quá nhẹ nhàng và không còn nhàm chán</p>
          </div>
          <div class="row">
             @if($news)

@@ -22,7 +22,7 @@ class PageController extends Controller {
         $this->data['page'] = $page;
         $this->data['news'] = \App\News::with('category')
             ->whereHas('category', function($query){
-                return $query->where('id', 1);
+                return $query->where('id', 6);
             })
             ->where('status', 1)->orderbyDesc('id')->limit(4)->get();
         
